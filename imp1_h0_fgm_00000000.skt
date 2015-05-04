@@ -1,0 +1,780 @@
+! Skeleton table for the "skteditor5600917276202823360" CDF.
+! Generated: Sunday, 3-May-2015 17:40:16
+! CDF created/modified by CDF V3.5.0
+! Skeleton table created by CDF V3.5.0_2
+
+#header
+
+                       CDF NAME: skteditor5600917276202823360
+                  DATA ENCODING: NETWORK
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/18          28            19         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Project"             1:    CDF_CHAR     { "NSSDC" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Space " -
+                                             "Physics>Magnetospheric " -
+                                             "Science" } .
+
+  "Source_name"         1:    CDF_CHAR     { "IMP1>Interplanetary " -
+                                             "Monitoring Platform 1" } .
+
+  "Data_type"           1:    CDF_CHAR     { "H0>Definitive Hourly" } .
+
+  "Descriptor"          1:    CDF_CHAR     { "FGM>Fluxgate Magnetometer " } .
+
+  "Data_version"        1:    CDF_CHAR     { "01" } .
+
+  "TITLE"               1:    CDF_CHAR     { "Near-Earth Heliosphere " -
+                                             "Data (OMNI)" } .
+
+  "TEXT"                1:    CDF_CHAR     { "Hourly averaged definitive" -
+                                             " interplanetary parameters" -
+                                             " data" }
+                        2:    CDF_CHAR     { "Magnetospheric magnetic " -
+                                             "B-field data set provided " -
+                                             "by the experimenter.  The " -
+                                             "data include spacecraft " -
+                                             "position and hourly " -
+                                             "averaged vector magnetic " -
+                                             "field data in both " -
+                                             "Cartesian and spherical " -
+                                             "polar GSM coordinates. " -
+                                             "Only hourly averages " -
+                                             "within the magnetosphere " -
+                                             "are included. A " -
+                                             "microfilmed listing of the" -
+                                             " contents of this data set" -
+                                             " is also available in data" -
+                                             " set 63-046A-02G." }
+                        3:    CDF_CHAR     { "          " }
+                        4:    CDF_CHAR     { "Additional data access " -
+                                             "options available at  " -
+                                             "SPDF's OMNIWeb Service: " -
+                                             "http://omniweb.gsfc.nasa.g" -
+                                             "ov/ow.html" }
+                        5:    CDF_CHAR     { "Recent OMNI 1-HR Updates " -
+                                             "News: " -
+                                             "http://omniweb.gsfc.nasa.g" -
+                                             "ov/html/ow_news.html" } .
+
+  "MODS"                1:    CDF_CHAR     { "created May 1964;" }
+                        2:    CDF_CHAR     { "originally punched on cards;" }
+                        3:    CDF_CHAR     { "conversion to one 7-track," -
+                                             " 800 BPI tape, written in " -
+                                             "BCD;" }
+                        4:    CDF_CHAR     { "conversion to one restored" -
+                                             " tape, written in EBCDIC;" }
+                        5:    CDF_CHAR     { "scan to binary by John " -
+                                             "Bordynuik Inc;" }
+                        6:    CDF_CHAR     { "conversion to ISTP/IACG " -
+                                             "CDFs via SKTEditor May " -
+                                             "2015" } .
+
+  "Logical_file_id"     1:    CDF_CHAR     { "imp1_h0_fgm_00000000_v01" } .
+
+  "PI_name"             1:    CDF_CHAR     { "N. Ness" } .
+
+  "PI_affiliation"      1:    CDF_CHAR     { "NASA GSFC" } .
+
+  "Generation_date"     1:    CDF_CHAR     { "20150303" } .
+
+  "Acknowledgement"     1:    CDF_CHAR     { "NSSDC" } .
+
+  "ADID_ref"            1:    CDF_CHAR     { "NSSD0110" } .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "Public" } .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Magnetic Fields (space)" }
+                        4:    CDF_CHAR     { "Electric Fields (space)" }
+                        5:    CDF_CHAR     { "Activity Indices" } .
+
+  "Generated_by"        1:    CDF_CHAR     { "C. Fallaw" } .
+
+  "Time_resolution"     1:    CDF_CHAR     { "1 hour" } .
+
+  "Logical_source"      1:    CDF_CHAR     { "imp1_h0_fgm" } .
+
+  "Logical_source_description"
+                        1:    CDF_CHAR     { "1AU Hourly IMF" } .
+
+  "LINK_TEXT"           1:    CDF_CHAR     { "SPDF's Active Archive" }
+                        2:    CDF_CHAR     { "Additional data access " -
+                                             "options available at " }
+                        4:    CDF_CHAR     { "Recent 1-hr OMNI Updates" } .
+
+  "LINK_TITLE"          1:    CDF_CHAR     { "IMP1 Fluxgate Magnetometer" -
+                                             " Hourly Averaged Magnetic " -
+                                             "Field" }
+                        2:    CDF_CHAR     { "SPDF's OMNIWeb Service" }
+                        4:    CDF_CHAR     { "Release Notes" } .
+
+  "HTTP_LINK"           1:    CDF_CHAR     { "http://spdf.sci.gsfc.nasa." -
+                                             "gov/pub/data/imp/imp1/flux" -
+                                             "gate_magnetometer/hourly_a" -
+                                             "veraged_magnetic_field/" }
+                        2:    CDF_CHAR     { "http://omniweb.gsfc.nasa.g" -
+                                             "ov/ow.html" }
+                        4:    CDF_CHAR     { "http://omniweb.gsfc.nasa.g" -
+                                             "ov/html/ow_news.html" } .
+
+  "alt_logical_source"
+                        1:    CDF_UCHAR    { "Combined_OMNI_1AU-Magnetic" -
+                                             "Field-Plasma-Particles_mrg" -
+                                             "1hr_1hour_cdf" } .
+
+  "Mission_group"       1:    CDF_UCHAR    { "IMP1" }
+                        2:    CDF_UCHAR    { "ACE" }
+                        3:    CDF_UCHAR    { "Wind" }
+                        4:    CDF_UCHAR    { "IMP (All)" }
+                        5:    CDF_UCHAR    { "!___Interplanetary Data " -
+                                             "near 1 AU" } .
+
+  "spase_DatasetResourceID"
+                        1:    CDF_CHAR     { "spase://VMO/NumericalData/" -
+                                             "OMNI/PT1H" } .
+
+  "File_naming_convention"
+                        1:    CDF_CHAR     { "source_datatype_descriptor" -
+                                             "_yyyyMMdd" } .
+
+
+#VARIABLEattributes
+
+  "FIELDNAM"
+  "VALIDMIN"
+  "VALIDMAX"
+  "SCALEMIN"
+  "SCALEMAX"
+  "UNITS"
+  "FORMAT"
+  "FILLVAL"
+  "VAR_TYPE"
+  "FORM_PTR"
+  "UNIT_PTR"
+  "SCAL_PTR"
+  "SCALETYP"
+  "CATDESC"
+  "VAR_NOTES"
+  "DICT_KEY"
+  "DISPLAY_TYPE"
+  "DEPEND_0"
+  "LABLAXIS"
+
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "Epoch"         CDF_EPOCH      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 01-Jan-0000 00:00:00.000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Epoch Time" }
+    "VALIDMIN"    CDF_EPOCH    { 01-Jan-1963 00:00:00.000 }
+    "VALIDMAX"    CDF_EPOCH    { 31-Dec-2020 23:59:59.000 }
+    "SCALEMIN"    CDF_EPOCH    { 01-Jan-1963 00:00:00.000 }
+    "SCALEMAX"    CDF_EPOCH    { 31-Dec-2020 23:59:59.000 }
+    "UNITS"       CDF_CHAR     { "DD-MMM-YYYY_hr:mm" }
+    "FILLVAL"     CDF_EPOCH    { 31-Dec-9999 23:59:59.999 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "Epoch Time" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "YR"            CDF_INT4       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Year" }
+    "VALIDMIN"    CDF_INT4     { 1963 }
+    "VALIDMAX"    CDF_INT4     { 2020 }
+    "SCALEMIN"    CDF_INT4     { 1963 }
+    "SCALEMAX"    CDF_INT4     { 2020 }
+    "FORMAT"      CDF_CHAR     { "I4" }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "CATDESC"     CDF_CHAR     { "Year" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "Year" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "Day"           CDF_INT4       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Decimal Day (JAN 1=1)" }
+    "VALIDMIN"    CDF_INT4     { 1 }
+    "VALIDMAX"    CDF_INT4     { 366 }
+    "SCALEMIN"    CDF_INT4     { 1 }
+    "SCALEMAX"    CDF_INT4     { 366 }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "CATDESC"     CDF_CHAR     { "Decimal Day" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "Day" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "HR"            CDF_INT4       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Decimal Hour" }
+    "VALIDMIN"    CDF_INT4     { 0 }
+    "VALIDMAX"    CDF_INT4     { 23 }
+    "SCALEMIN"    CDF_INT4     { 0 }
+    "SCALEMAX"    CDF_INT4     { 23 }
+    "FORMAT"      CDF_CHAR     { "I2" }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "CATDESC"     CDF_CHAR     { "Decimal Hour" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "Hour" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "ABS_B"         CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Field Magnitude Avg." }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100.0 }
+    "SCALEMIN"    CDF_REAL4    { 0.0 }
+    "SCALEMAX"    CDF_REAL4    { 100.0 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Average B Field Magnitude, nT" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Mag Avg B" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "THETA_AV"      CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Lat. Angle of AV." }
+    "VALIDMIN"    CDF_REAL4    { -90.0 }
+    "VALIDMAX"    CDF_REAL4    { 90.0 }
+    "SCALEMIN"    CDF_REAL4    { -90.0 }
+    "SCALEMAX"    CDF_REAL4    { 90.0 }
+    "UNITS"       CDF_CHAR     { "Deg" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Latitude/Theta of average B " -
+                                 "vector (deg)" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Lat/Theta  Avg B" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "PHI_AV"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Long. Angle of AV." }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 360.0 }
+    "SCALEMIN"    CDF_REAL4    { 0.0 }
+    "SCALEMAX"    CDF_REAL4    { 360.0 }
+    "UNITS"       CDF_CHAR     { "Deg" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Longitude/Phi of average B " -
+                                 "vector (deg)" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Long/Phi Avg B" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BX_GSE"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Bx, GSE" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Bx (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Bx, GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BY_GSE"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "By, GSE" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP By (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP By, GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BZ_GSE"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Bz, GSE" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Bz (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Bz, GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BX_GSM"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Bx, GSM" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Bx (nT), GSM" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Bx, GSM" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BY_GSM"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "By, GSM" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP By (nT), GSM" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP By, GSM" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "BZ_GSM"        CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Bz, GSM" }
+    "VALIDMIN"    CDF_REAL4    { -99.9 }
+    "VALIDMAX"    CDF_REAL4    { 99.9 }
+    "SCALEMIN"    CDF_REAL4    { -99.9 }
+    "SCALEMAX"    CDF_REAL4    { 99.9 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "1AU IP Bz (nT), GSM" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "1AU IP Bz, GSM" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "SIGMA_BX"      CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "sigma-Bx" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 50.0 }
+    "SCALEMIN"    CDF_REAL4    { 0.0 }
+    "SCALEMAX"    CDF_REAL4    { 50.0 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "RMS deviation Bx (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "RMSDev Bx GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "SIGMA_BY"      CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "sigma-By" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100.0 }
+    "SCALEMIN"    CDF_REAL4    { 0.0 }
+    "SCALEMAX"    CDF_REAL4    { 100.0 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "RMS deviation By (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "RMSDev By GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "SIGMA_BZ"      CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "sigma-Bz" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 110.0 }
+    "SCALEMIN"    CDF_REAL4    { 0.0 }
+    "SCALEMAX"    CDF_REAL4    { 110.0 }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "FORMAT"      CDF_CHAR     { "F5.1" }
+    "FILLVAL"     CDF_REAL4    { 999.9 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "RMS deviation Bz (nT), GSE" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "RMSDev Bz GSE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "OrbitNumber"   CDF_INT4       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Orbit Number" }
+    "VALIDMIN"    CDF_INT4     { 1 }
+    "VALIDMAX"    CDF_INT4     { 100 }
+    "SCALEMIN"    CDF_INT4     { 1 }
+    "SCALEMAX"    CDF_INT4     { 100 }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "Orbit Number" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "Orbit" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "RadialDist"    CDF_INT4       1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "FIELDNAM"    CDF_CHAR     { "Radial Distance" }
+    "VALIDMIN"    CDF_INT4     { 0 }
+    "VALIDMAX"    CDF_INT4     { 100 }
+    "SCALEMIN"    CDF_INT4     { 1 }
+    "SCALEMAX"    CDF_INT4     { 100 }
+    "UNITS"       CDF_CHAR     { "Re" }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "CATDESC"     CDF_CHAR     { "Radial Distance" }
+    "DEPEND_0"    CDF_CHAR     { "Epoch" }
+    "LABLAXIS"    CDF_CHAR     { "RadialDist" } .
+
+  ! RV values were not requested.
+
+
+#end

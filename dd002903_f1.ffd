@@ -1,0 +1,52 @@
+; This is a translation file (.ffd file) 
+; for NSSDC ID: SPMS-00056
+; as scanned from 9-track tape by JBI
+; This file, dd009203_f1.ffd, was created 2015-05-03 by
+; Colleen Fallaw, orcid.org/0000-0002-0339-9809
+
+RUNTIME_PARAMETERS
+progress_output             ON        ;(ON/OFF),default=OFF
+debug_output                OFF       ;(ON/OFF),default=OFF
+log_to_screen               ON        ;(ON/OFF),default=ON
+logfile_maxrecs             400       ;(positive integer),default=100
+log_to_file                 OFF       ;(ON/OFF),default=OFF
+autonaming_style            0         ;(0=ISTP,1=ISIS),default=0
+autonaming_case             1         ;(0=upper-case,1=lower-case),default=1
+END_RUNTIME_PARAMETERS
+;
+INFILE_DESCRIPTION
+format                       FREEFORM  ;(FREEFORM/FORMATTED),default=FREEFORM
+data_type                    TEXT       ;(TEXT/BINARY),default=TEXT
+text_type                    ASCII      ;(ASCII/EBCDIC),default=ASCII
+binary_type                  VAX        ;(VAX/SUN/IBMPC) iff data_type=BINARY
+; The complete list of recognized binary types is: 
+; VAX/ALPHAVMSD/ALPHAVMSG/SUN/SGI/DECSTATION/ALPHAOSF1/IBMRS/IBMPC/HP/NEXT/MAC
+delimiter                    ,          ;special value 'blank'
+END_INFILE_DESCRIPTION
+;
+EPOCH_DESCRIPTION
+algorithm                    0                      ;algorithm id
+operands                     6 0 7 8 0 0 0 0 0 0    ;operands
+END_EPOCH_DESCRIPTION
+;
+VARIABLE_DESCRIPTIONS
+;varname     size form H E br er nreps delta #/r M C aV aS aF Fc fill
+OrbitNumber  1    i   n n 1  0  1     0     1   0 n n  n  n  n  0
+RadialDist   1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BX_GSE       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BY_GSE       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BZ_GSE       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+YR           1    i   n n 0  0  1     0     1   0 n n  n  n  n  0
+Day          1    i   n n 0  0  1     0     1   0 n n  n  n  n  0
+HR           1    i   n n 0  0  1     0     1   0 n n  n  n  n  0
+ABS_B        1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+THETA_AV     1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+PHI_AV       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BX_GSM       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BY_GSM       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+BZ_GSM       1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+SIGMA_BX     1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+SIGMA_BY     1    r   n n 0  0  1     0     1   0 n n  n  n  n  0
+SIGMA_BZ     1    r   n y 0  1  1     0     1   0 n n  n  n  n  0
+END_VARIABLE_DESCRIPTIONS
+
