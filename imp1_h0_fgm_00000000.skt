@@ -207,7 +207,7 @@
     "SCALEMAX"    CDF_EPOCH    { 31-Dec-2020 23:59:59.000 }
     "UNITS"       CDF_CHAR     { "DD-MMM-YYYY_hr:mm" }
     "FILLVAL"     CDF_EPOCH    { 31-Dec-9999 23:59:59.999 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
     "CATDESC"     CDF_CHAR     { "Epoch Time" } .
 
   ! RV values were not requested.
@@ -330,7 +330,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Average B Field Magnitude, nT" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -364,7 +364,7 @@
     "UNITS"       CDF_CHAR     { "Deg" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Latitude/Theta of average B " -
                                  "vector (deg)" }
     "DEPEND_0"    CDF_CHAR     { "Epoch" }
@@ -397,7 +397,7 @@
     "UNITS"       CDF_CHAR     { "Deg" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Longitude/Phi of average B " -
                                  "vector (deg)" }
     "DISPLAY_TYPE"
@@ -432,7 +432,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Bx (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -466,7 +466,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP By (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -500,7 +500,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Bz (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -534,7 +534,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Bx (nT), GSM" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -568,7 +568,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP By (nT), GSM" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -602,7 +602,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "1AU IP Bz (nT), GSM" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -636,7 +636,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "RMS deviation Bx (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -670,7 +670,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "RMS deviation By (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -704,7 +704,7 @@
     "UNITS"       CDF_CHAR     { "nT" }
     "FORMAT"      CDF_CHAR     { "F5.1" }
     "FILLVAL"     CDF_REAL4    { 999.9 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
     "CATDESC"     CDF_CHAR     { "RMS deviation Bz (nT), GSE" }
     "DISPLAY_TYPE"
                   CDF_CHAR     { "time_series" }
@@ -737,7 +737,7 @@
     "SCALEMAX"    CDF_INT4     { 100 }
     "FORMAT"      CDF_CHAR     { "I3" }
     "FILLVAL"     CDF_INT4     { -2147483648 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
     "CATDESC"     CDF_CHAR     { "Orbit Number" }
     "DEPEND_0"    CDF_CHAR     { "Epoch" }
     "LABLAXIS"    CDF_CHAR     { "Orbit" } .
@@ -769,7 +769,7 @@
     "UNITS"       CDF_CHAR     { "Re" }
     "FORMAT"      CDF_CHAR     { "I3" }
     "FILLVAL"     CDF_INT4     { -2147483648 }
-    "VAR_TYPE"    CDF_CHAR     { "ignore_data" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
     "CATDESC"     CDF_CHAR     { "Radial Distance" }
     "DEPEND_0"    CDF_CHAR     { "Epoch" }
     "LABLAXIS"    CDF_CHAR     { "RadialDist" } .
