@@ -10,7 +10,7 @@ Input files:
 
 Output file:
 
-- output CDF file: `imp1_h0_fgm_20150503.cdf`
+- output CDF file: `imp1_h0_fgm_20150507.cdf`
 
 [The original data file and documentation are available from NASA.](http://spdf.sci.gsfc.nasa.gov/pub/data/imp/imp1/fluxgate_magnetometer/hourly_averaged_magnetic_field/).
 
